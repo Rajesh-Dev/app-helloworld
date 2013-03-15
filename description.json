@@ -1,7 +1,7 @@
 {
 	"api_name":"helloworld",
 	"name":"Hello World",
-	"description":"A sample application that demonstrates how to access the REST API on your DreamFactory Services Platform (DSP).",
+	"description":"A tiny sample application showing how to make a RESTful call to your DreamFactory Services Platform (DSP).",
 	"is_active":1,
 	"url":"/index.html",
 	"is_url_external":0
