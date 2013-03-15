@@ -1,0 +1,10 @@
+div {
+    border-style:solid;
+    border-width:1px;
+    padding:10px;
+}
+
+.loud {
+    font-weight:bold;
+    font-size:24;
+}
