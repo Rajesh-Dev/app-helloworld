@@ -3,7 +3,7 @@ function sayhello() {
     $.ajax({
         dataType: 'json',
         url: location.protocol + '//' + location.host + '/rest/User/Profile',
-        data: 'method=GET&app_name=helloworld',
+        data: 'app_name=helloworld',
         cache: false,
         success: function (response) {
             $('#demo').html('Hello, ' + response.display_name + '!!!');
