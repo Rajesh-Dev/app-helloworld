@@ -2,7 +2,7 @@ function sayhello() {
 
     $.ajax({
         dataType: 'json',
-        url: location.protocol + '//' + location.host + '/rest/User/Profile',
+        url: location.protocol + '//' + location.host + '/rest/user/profile',
         data: 'app_name=helloworld',
         cache: false,
         success: function (response) {
